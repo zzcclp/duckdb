@@ -12,6 +12,7 @@ set(PARQUET_EXTENSION_FILES
     parquet-extension.cpp
     parquet_metadata.cpp
     parquet_reader.cpp
+    rle_bitpacking_hybrid_encoder.c
     parquet_timestamp.cpp
     parquet_writer.cpp
     parquet_statistics.cpp
